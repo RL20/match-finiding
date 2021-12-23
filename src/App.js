@@ -9,10 +9,6 @@ class App extends React.Component {
     super(props);
     this.state = { countUp: 0, countDown: 0, pic: 1 };
   }
-  // const { data } = await unsplash.get("search/photos", {
-  //   params: { query: this.props.topic, per_page: 100 },
-  // });
-  // this.setState({ images: data.results });
 
   getImageUrl = (index) => {
     return `https://picsum.photos/500/500?random=${index}`;
