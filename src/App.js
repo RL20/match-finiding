@@ -34,7 +34,7 @@ class App extends React.Component {
     arr.fill(10);
     console.log("arr", arr);
     return (
-      <div>
+      <div className="App">
         <div className="counter">
           <FaRegThumbsDown className="down" />
           <Counter count={this.state.countUp} />
